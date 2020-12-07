@@ -14,7 +14,7 @@ Unfinished Tasks:
 - Setting up the account page and linking it to the sign in page.
 - A sticky navbar: The navbar was sticky at 1st, but we later lost it when we added the bootstrap.min.css and all.min.css.
 - On the login page, linking the forgot password to a page to reset a password, and obtaining account information for a user to make an account (Which includes getting the remember password to save login information).
-- Save the registration form to meet a pet in the available pets page.
+- Save the info of the users input on the registration form to sign up to meet a pet in the available pets page.
 
 Difficulties That We Overcame:
 - On the pet page, the positions of the flipping circles were not responsive to the screen size. On Jenny's screen, everything looked fine. However, on Jacob's screen, which is much bigger than Jenny's screen, the flipping circles were all over the place. Initially, we used "vh/vw" to position the flipping circles, so they should be responsive to screen size, but they were not in good positions. We adjusted the y-values/y-positions for height and used "px" instead of "vh/vw", but it didn't work. Next, we researched on Google about making things responsive to screen size, and one of the things that popped up was position property in css, so we looked up different position properties. We didn't know which property is the right one to use, so we started testing and ended up with the "abosulte" position property. Next, we adjusted the position of each flipping circle while setting all of them to "aboslute", and it worked.
